@@ -2,6 +2,12 @@
 
 ## Cloner le projet
 
+## Créer l'environnement virtuel :
+python3 -m venv env
+
+## Activer l'environnement virtuel :
+source env/bin/activate
+
 ## Installer les requirements : 
 pip install -r requirements.txt
 
