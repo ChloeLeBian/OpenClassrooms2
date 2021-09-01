@@ -40,6 +40,7 @@ for category_url in categories_url:
             
             image_url = bookData['image_url']
             title = bookData['title']
+            title = title.replace("/","-")
             #on récupère également dans notre dictionnaire l'url du livre et le son titre
 
             with open(f'images/{title}.jpg', 'wb') as f:
